@@ -1,0 +1,36 @@
+{
+  "name": "jest-example",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "How to do unit testing with jest",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GabrielDelepine/jest-example.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GabrielDelepine/jest-example/issues"
+  },
+  "homepage": "https://github.com/GabrielDelepine/jest-example#readme",
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.5.0",
+    "@babel/preset-env": "^7.5.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-jest": "^24.8.0",
+    "jest": "^24.8.0",
+    "react-test-renderer": "^16.8.6"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "verbose": true
+  },
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6"
+  }
+}
