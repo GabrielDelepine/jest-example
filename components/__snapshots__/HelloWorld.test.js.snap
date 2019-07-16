@@ -9,11 +9,40 @@ Array [
     company: 
     Ubisoft
   </p>,
+  <button
+    onClick={[Function]}
+  >
+    you never clicked me
+  </button>,
 ]
 `;
 
 exports[`default props 1`] = `
-<h1>
-  Hello World
-</h1>
+Array [
+  <h1>
+    Hello World
+  </h1>,
+  <button
+    onClick={[Function]}
+  >
+    you never clicked me
+  </button>,
+]
+`;
+
+exports[`simulate click on button 1`] = `
+Array [
+  <h1>
+    Hello World
+  </h1>,
+  <p>
+    company: 
+    Ubisoft
+  </p>,
+  <button
+    onClick={[Function]}
+  >
+    you clicked me
+  </button>,
+]
 `;
