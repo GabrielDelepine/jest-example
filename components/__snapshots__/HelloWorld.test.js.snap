@@ -1,5 +1,17 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`companyName props 1`] = `
+Array [
+  <h1>
+    Hello World
+  </h1>,
+  <p>
+    company: 
+    Ubisoft
+  </p>,
+]
+`;
+
 exports[`default props 1`] = `
 <h1>
   Hello World
